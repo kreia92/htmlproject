@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EMS DESSERTS</title>
+</head>
+<body>
+<hr>
+<div class="maincontainer"></div>
+
+   <div class="header">
+
+  <h1>EMS Desserts
+  <p>Eat me sweetie</p></h1>
+<ul>
+      	<li><a href="homedessert.html">Home</a></li>
+      	<li><a href="shopdessert.html">Shop</a></li>
+      	<li><a href="recipedessert.html">Recipe</a></li>
+      	<li><a href="aboutdessert.html">About</a></li>
+      	<li><a href="contactdessert.html">Contact Us</a></li>
+      	<li><a href="accountdesser.html">Account</a></li>
+ </ul>
+   </div>
+<hr>
+   <div class="midcontainer">
+
+   <div class="leftnav">
+       <h1>Categories</h1>
+       <ul>
+       	<li>Pastries</li>
+       	<li>Cakes</li>
+       	<li>Frozen Desserts</li>
+       	<li>Cupcakes</li>
+       	<li>Cookies</li>
+       	<li>Donuts</li>
+       </ul>
+   </div>
+
+<div class="f">
+
+   <div class="rightnav">
+      <h1>HEAVENLY<br><span>SWEET</span><br>DELIGHTS.</h1>
+   </div>
+</div>
+
+<div class="featured"> 
+	<p>Featured Desserts</p>
+   <div class="fd">
+      <img src="chocolate-cake.jpg" alt="Cake">
+   </div>
+  
+</div>
+</div>
+<div class="footer">
+	<p>ORDER HERE:</p>
+   <div class="items">
+            <div class="item1">
+                <img src="chocolate-cake.jpeg" alt="Chocolate Triff">
+                <p>Chocolate Triff</p>
+            </div>
+
+            <div class="item2">
+                <img src="royalty-cake.jpg" alt="Royalty Cake">
+                <p>Royalty Cake</p>
+            </div>
+
+            <div class="item4">
+                <img src="ice-cream.jpg" alt="Ice Cream">
+                <p>Ice Cream</p>
+            </div>
+
+            <div class="item5">
+                <img src="super-moist-choco.jpg" alt="Super Moist Chocolate Cupcake">
+                <p>Super Moist <br>Chocolate Cupcake</p>
+            </div>
+
+            <div class="item6">
+                <img src="white-choco-cookie.jpg" alt="Soft White Chocolate Cookie">
+                <p>Soft White<br> Chocolate Cookie</p>
+            </div>
+
+            <div class="item7">
+                <img src="chocolate-donut.jpg" alt="Chocolate Donut">
+                <p>Chocolate Donut</p>
+            </div>
+        </div>
+<div class="footer">
+<h3>© 2024 EMS DESSERTS. All Rights Reserved</h3>
+</div>
+</div>
+
+</body>
+</html>
+
+<style type="text/css">
+   *{
+   margin: 5px;
+}
+
+body{
+   font-family: Arial, 'sans-serif';
+    margin: 0;
+    padding: 0;
+    background-color: #white;
+
+}
+
+.maincontainer{
+   border: 0px red solid;
+   /*width: 988px;*/
+}
+
+.header h1{
+   font-family: cambria;
+   font-size: 40px;
+}
+
+.header p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header{
+   border: 0px red solid;
+   height: 100px;
+   display:flex;
+   list-style: none;
+   justify-content: space-evenly;
+   align-items: center;
+    background-color:green;
+}
+
+.header ul{
+   list-style: none;
+}
+
+.header ul li{
+   display: inline-block;
+   margin: 0 15px;
+}
+
+.header ul li a{
+   text-decoration: none;
+   color: white;
+   font-weight: 500;
+   font-size: 17px;
+   transition: 0.1s;
+}
+
+.header ul li a::after{
+   content:'';
+   width: 0;
+   height: 2px;
+   background: #fac031;
+   display: block;
+   transition: 0.2s linear;
+}
+
+.header ul li a:hover:after{
+    width: 100%;
+}
+
+.header ul li a:hover{
+   color: #fac013;
+}
+
+.midcontainer{
+   border: 0px red solid;
+   display: flex;
+   background-color: #cce3de;
+}
+
+.leftnav{
+   border: 0px red solid;
+   width: 25%;
+   height: 330px;
+   background-color: #eaf4f4;
+   
+}
+
+.leftnav h1{
+   font-family:cursive;
+   margin left: 1px;
+   color: #f1948a;
+}
+
+.leftnav ul{
+   font-family: verdana;
+}
+
+
+.rightnav{
+   border: 0px red solid;
+   width: 150%;
+   height: 330px;
+   font-size: 30px;
+    position: relative;
+   text-align: center;
+   top: 50px;
+}
+
+.rightnav span{
+  margin-left: 15px;
+   color: #fac013;
+   font-family: mv boli;
+   line-height: 22px;
+   font-size: 70px;
+}
+
+.featured{
+   border: 0px #aed6f1 solid;
+   width: 50%;
+  margin: 20px;
+ margin-left: 25%;
+  background-color: #eaf4f4;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+.featured .fd{
+   border: 1px red solid;
+   width: 70%;
+   margin: 20px;
+  height: 75%;
+ margin-left: 15%;
+}
+
+@keyframes myani{
+   0%{background-image: url("cake.jpeg");}
+   35%{background-image: url("cake.jpeg");}
+   75%{background-image: url("cake.jpeg");}
+}
+
+.featured p{
+   font-family: cursive;
+   padding-top: 0px;
+   color: #f1948a;
+   font-size: 20px;
+
+}
+.footer{
+   border: 0px red solid;
+   height: 500px;
+   margin: 5px;
+   background-color: #eaf4f4;
+
+}
+
+.footer p{
+   font-size: 30px;
+   padding: 5px;
+   font-family: fantasy;
+   color: #5d6d7e;
+}
+
+.items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item {
+            text-align: center;
+            flex: 1 1 calc(33.333% - 40px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffd1dc;
+            margin-top: 20px;
+        }
+
+.footer{
+   height: 40px;
+   text-align: center;
+   padding: 3PX;
+}
+ 
+ @media (max-width: 1000px) {
+    .header h1{
+       flex-direction: column;
+        align-items: center;
+    }
+
+    .header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .midcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftnav, .rightnav, .featured {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item1, .item2, .item4, .item5, .item6, .item7 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 24px;
+    }
+
+    .items {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .item1, .item2, .item4, .item5, .item6, .item7 {
+        width: 90%;
+    }
+}
+
+</style>
